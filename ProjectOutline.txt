@@ -1,0 +1,49 @@
+Chris Iwasaki, Darien, Kenneth, Megan
+Emory Hackathon Fall 2014
+
+
+Fit and Share
+
+Planned APIS
+- Misfit
+- Backbone
+
+Overall Description/Major decisions:
+- We plan to make a fitness app that uses misfit to record workout sessions and then translate that data into a webapp fitness profile page using backbone. The service we providing would be an overall statistics page for the user athlete. The home page would be the recent log of workouts in stack form. The other visible page would be the overal statistics of the user's workout history with misfit. We tried to make app simple, yet have a nice practical usage. 
+
+-An example of an app similiar to this would be how soundcloud uses facebook to let users share music. It's the same concept, except clicking the link on fb brings people to the user's personal statistics page.
+
+- The app will be used as an extension app to facebook rather than it's own seperate social network.
+Reasoning - We have nothing outstanding to offer to get people to join a seperate network. We will use facebook as a wehicle since a community has been established there.
+How - Backbone + Facebook Social Plugins
+
+Use Cases(Requirements that have to be accomplished before presentations)
+- Profile System (signup via fb or actual website)
+- Stores and brings out user workout statistics
+- Displays Recent Workouts in a stack
+- Displays the data in interactive graphs
+
+Extra Idea Features:
+- Github like calander 
+- Import data from Facebook(including friends)
+- Point System (Potential Advertisement Revenue)
+- Show other users in the area
+
+User Interface
+- Looks similiar to Facebook homepage.
+- Individual workouts will pushdown older ones in a stack
+- Optional to post on facebook, otherwise it would be spam
+- Home page is the history of workouts
+
+Tools
+- Famo.us
+	runs in user's web browser to issue http requests to the express server
+- Express + Node.js
+	Node is server side Javascript. Use express for the http requests in node.
+- Backbone.js models/jquery  used to help send the http requests to the express server
+
+Complications
+- Kenneth and I are new to Node.js
+- We do not know the specifics as to how misfit records its data
+- It seems like the data passes through mobile apps as a medium with misfit.
+
