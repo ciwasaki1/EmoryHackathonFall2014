@@ -2,14 +2,14 @@ Chris Iwasaki, Darien, Kenneth, Megan
 Emory Hackathon Fall 2014
 
 
-Fit and Share
+Physica
 
 Planned APIS
 - Misfit
-- Backbone
 
 Overall Description/Major decisions:
-- We plan to make a fitness app that uses misfit to record workout sessions and then translate that data into a webapp fitness profile page using backbone. The service we providing would be an overall statistics page for the user athlete. The home page would be the recent log of workouts in stack form. The other visible page would be the overal statistics of the user's workout history with misfit. We tried to make app simple, yet have a nice practical usage. 
+- We plan to make a fitness app that uses misfit to record workout sessions and then translate that data into a webapp fitness profile page using backbone. The service we providing would be an overall statistics page for the user athlete. The home page would be the recent log of workouts in stack form. The other visible page would be the overal statistics of the ussr's workout history with misfit. We tried to make app simple, yet have a nice practical usage. 
+
 
 -An example of an app similiar to this would be how soundcloud uses facebook to let users share music. It's the same concept, except clicking the link on fb brings people to the user's personal statistics page.
 
@@ -38,12 +38,10 @@ User Interface
 Tools
 - Famo.us
 	runs in user's web browser to issue http requests to the express server
-- Express + Node.js
-	Node is server side Javascript. Use express for the http requests in node.
-- Backbone.js models/jquery  used to help send the http requests to the express server
+- PHP
+- MYSQL
 
 Complications
-- Kenneth and I are new to Node.js
 - We do not know the specifics as to how misfit records its data
 - It seems like the data passes through mobile apps as a medium with misfit.
 
